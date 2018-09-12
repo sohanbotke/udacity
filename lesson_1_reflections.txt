@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+>> It was easier to spot differences thus much easier to pinpoint the bug. I feel having shorter lines will defintely help with better readability. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+>> Its easir to spot various changes throughout the version history of the document, having access to these allows a programmer to identify the features each versions offer. One can mark off/checkpoint more stable versions of the code and keep developing on top of it, without worrying about trying to remember how to undo everything. If a newly developed code turns out to have a big bug, he can always rollback to the previous stable released verison and identify the issues. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+>> Manually commiting allows you to have more control over various versions ( which are probably logically separate changes ) of the code, however it totally depends on how diligently you follow the rule of commiting changes and thus depends on your judgement. 
+ Sometimes you might completely forget to commit the just rigt logically separate changes in the code and just commit a large change or sometimes you might create a lot of useless versions when commiting too often. 
+
+ Having a automatic version saved does take away the responsibility to time your commits, however it might create a lot of useless versions which dont even compile. these might be good for documents but not for code. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?   
+>> Git is used for codebase version control, wehreas google Docs is mainly used for documents. A code project usually has interlinked files which need to be maintained together or rather should be maintained together. A logical change may span across files and thus its important to save all of them in one commit. Google docs is mainly used for documents/excel sheets/ppt etc which need not have dependencies seen in a website project and thus need not be saved together. 
+
+How can you use the commands git log and git diff to view the history of files?
+>> git log - helps you find different commited versions (history) and thus brows through the changes made to a file
+   git diff - helps you find exact changes made in two different commits from the log. 
+
+How might using version control make you more confident to make changes that could break something?
+>> Its much more easier to go through previous stable versions, if the current changes really screws up things. You can alwyays diff and find out what really changed. Thus it allows through overhaul of the code, implement completely new and maybe efficient concept for the same tasks without the fear of breaking anything.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+>> excellent tool, I will use it for my hobby projects and making significant changes to my current projects.
