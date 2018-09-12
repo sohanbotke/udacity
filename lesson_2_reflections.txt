@@ -3,3 +3,6 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 >> staging area is a list of files you want to commit, thus you can keep working on multiple files on the same working directory however just commit logically dependent files by adding just those files to the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+>> You can keep adding and commiting various files with the logical changes you want to commit. The staging area resets after each commit and thus you can create a new staging area and commit. 
