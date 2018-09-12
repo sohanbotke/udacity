@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 >> You can keep adding and commiting various files with the logical changes you want to commit. The staging area resets after each commit and thus you can create a new staging area and commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+>> when you want to try out some new changes to the code but not make them official yet, however keep the original branch going with needed fixes. This helps to keep the new features/radical code changes to a branch ( which can be merged later ) and keep the master clean till we are ready to commit those changes. 
