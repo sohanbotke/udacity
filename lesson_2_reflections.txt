@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+>> git creates a hidden directory to store metadata it needs for version control. This way git can save offline updates to the repository. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+>> staging area is a list of files you want to commit, thus you can keep working on multiple files on the same working directory however just commit logically dependent files by adding just those files to the staging area.
