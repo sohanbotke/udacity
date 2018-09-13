@@ -12,3 +12,10 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 >> the graphical representation does help understand how different branhces work, reachable commits from those branches and unreachable commits. It also helps organize and understand various branches in the code repository better.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+>> it merges all the changes from one branch to latest commit from another branch. This uniquifying two branches and creating a single branch from them, using which all the preious commits from both branches are accessible. The diagram helps us better picturise that. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+>> gits automatic merging is very conservative and thus does not merge any complex changes, but it does help with simple changes which can be
+   easily merged thus saving time. Alayws manully merging files will be very time consuming and also error prone.
