@@ -4,3 +4,9 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 >> I would not want git to pull unneccessary changes, or pull changes when I am developing a new feature based on the current files. That could cause lots of issues and thus I will spend most of my time resolving conflicts and making my changes compatible with the lates files just pulled. Also, it would be much easir if I manually decide when to pull new changes, maybe after deciding if they need to be pulled. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+>> Forks : forks are used to clone a repo on the github ( remote ) itself, without the need to clone it locally, then cloning it , setting up new remote and pushing it to new remote.
+           along with that github also helps with backlinks to the original repo from which the new repo is forked ( cloned ) which does help in recommending changes to the original.
+   Clones: clones are done either locally or from remote to  local, wehre the whole repo is clones to the local machine i.e. a copy of that is made using the original. If done from remote, git automatically creates a remote link to the original. 
+   Branches: These are part of the local repo, where one can separate out code per funcationality and allows simulteneous work on those features ( even if they modify the same files ). Its like having multiple workspaces based of same stream in perforce  or ucm. Branches can be merged later with the master stream once the feature is fully developed and approved. 
