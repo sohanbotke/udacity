@@ -10,3 +10,6 @@ Describe the differences between forks, clones, and branches. When would you use
            along with that github also helps with backlinks to the original repo from which the new repo is forked ( cloned ) which does help in recommending changes to the original.
    Clones: clones are done either locally or from remote to  local, wehre the whole repo is clones to the local machine i.e. a copy of that is made using the original. If done from remote, git automatically creates a remote link to the original. 
    Branches: These are part of the local repo, where one can separate out code per funcationality and allows simulteneous work on those features ( even if they modify the same files ). Its like having multiple workspaces based of same stream in perforce  or ucm. Branches can be merged later with the master stream once the feature is fully developed and approved. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+>> That way you know how far your changes have come from that state, when doing a pull it helps git determine what to merge and the conflicts. Also it helps you manually fetch and merge the changes. 
